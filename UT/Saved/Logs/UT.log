@@ -763,3 +763,91 @@ LogInit: Object subsystem initialized
 [2018.05.24-02.54.43:904][619]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
 [2018.05.24-02.54.54:565][896]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
 [2018.05.24-02.54.54:595][896]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.24-04.45.04:648][441]LogEditor: Attempting to add actor of class 'UTProjectile' to level at -10.00,-340.00,170.00
+[2018.05.24-04.45.05:007][479]LogEditor: Attempting to add actor of class 'UTProjectile' to level at -140.00,-210.00,170.00
+[2018.05.24-04.45.27:972][220]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.24-04.45.31:161][596]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.24-04.45.31:713][661]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.24-04.45.34:407][982]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.24-04.45.40:921][753]LogEditorActor: Deleted Actor: UTProjectile
+[2018.05.24-04.45.40:928][753]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2018.05.24-04.46.12:133][ 89]LogSavePackage: Save=60.20ms
+[2018.05.24-04.46.12:133][ 89]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Saved/FirstPersonExampleMap_Auto2B258D5C544A718588CEAAE9358E6B260.tmp' to '../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2018.05.24-04.46.12:134][ 89]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto2.umap
+[2018.05.24-04.46.12:136][ 89]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.084
+[2018.05.24-04.46.12:136][ 89]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.084
+[2018.05.24-04.47.07:214][512]Candidate modules for hot reload:
+[2018.05.24-04.47.07:214][512]  UT
+[2018.05.24-04.47.07:214][512]Launching UnrealBuildTool... [E:/Program Files (x86)/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe UT -ModuleWithSuffix UT 9638 Win64 Development -editorrecompile -canskiplink "E:/_GameDev/_Projects/Unreal/UETutorial/UT/UT.uproject" ]
+[2018.05.24-04.47.07:216][512]Warning: Starting HotReload took  0.0s.
+[2018.05.24-04.47.19:047][932]CompilerResultsLog: New page: Compilation - May 23, 2018, 8:47:19 PM
+[2018.05.24-04.47.19:047][932]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.24-04.47.19:047][932]CompilerResultsLog: Parsing headers for UTEditor
+[2018.05.24-04.47.19:047][932]CompilerResultsLog:   Running UnrealHeaderTool "E:\_GameDev\_Projects\Unreal\UETutorial\UT\UT.uproject" "E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UTEditor\Development\UTEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.05.24-04.47.19:047][932]CompilerResultsLog: Reflection code generated for UTEditor in 6.6983735 seconds
+[2018.05.24-04.47.19:047][932]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.05.24-04.47.19:047][932]CompilerResultsLog: UT.init.gen.cpp
+[2018.05.24-04.47.19:047][932]CompilerResultsLog: Pickup.cpp
+[2018.05.24-04.47.19:047][932]CompilerResultsLog: Pickup.gen.cpp
+[2018.05.24-04.47.19:047][932]CompilerResultsLog: Error: e:\_gamedev\_projects\unreal\uetutorial\ut\source\ut\Pickup.h(5) : error C2006: '#include': expected a filename, found 'user-defined string literal'
+[2018.05.24-04.47.19:047][932]CompilerResultsLog: Error: e:\_gamedev\_projects\unreal\uetutorial\ut\source\ut\Pickup.h(5) : fatal error C1083: Cannot open include file: '': No such file or directory
+[2018.05.24-04.47.19:047][932]CompilerResultsLog: Error: E:\_GameDev\_Projects\Unreal\UETutorial\UT\Source\UT\Pickup.h(5) : error C2006: '#include': expected a filename, found 'user-defined string literal'
+[2018.05.24-04.47.19:047][932]CompilerResultsLog: Error: E:\_GameDev\_Projects\Unreal\UETutorial\UT\Source\UT\Pickup.h(5) : fatal error C1083: Cannot open include file: '': No such file or directory
+[2018.05.24-04.47.19:047][932]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\_GameDev\_Projects\Unreal\UETutorial\UT\Binaries\Win64\UE4Editor-UT-9638.dll
+[2018.05.24-04.47.19:047][932]CompilerResultsLog: Total build time: 11.63 seconds (Local executor: 0.00 seconds)
+[2018.05.24-04.47.19:047][932]LogMainFrame: MainFrame: Module compiling took 11.841 seconds
+[2018.05.24-04.47.19:047][932]Warning: HotReload failed, recompile failed
+[2018.05.24-04.51.19:927][453]Candidate modules for hot reload:
+[2018.05.24-04.51.19:927][453]  UT
+[2018.05.24-04.51.19:927][453]Launching UnrealBuildTool... [E:/Program Files (x86)/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe UT -ModuleWithSuffix UT 9420 Win64 Development -editorrecompile -canskiplink "E:/_GameDev/_Projects/Unreal/UETutorial/UT/UT.uproject" ]
+[2018.05.24-04.51.19:929][453]Warning: Starting HotReload took  0.0s.
+[2018.05.24-04.51.33:063][ 29]CompilerResultsLog: New page: Compilation - May 23, 2018, 8:51:33 PM
+[2018.05.24-04.51.33:063][ 29]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.24-04.51.33:063][ 29]CompilerResultsLog: Parsing headers for UTEditor
+[2018.05.24-04.51.33:063][ 29]CompilerResultsLog:   Running UnrealHeaderTool "E:\_GameDev\_Projects\Unreal\UETutorial\UT\UT.uproject" "E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UTEditor\Development\UTEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.05.24-04.51.33:063][ 29]CompilerResultsLog: Reflection code generated for UTEditor in 7.0955226 seconds
+[2018.05.24-04.51.33:063][ 29]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.05.24-04.51.33:063][ 29]CompilerResultsLog: Pickup.gen.cpp
+[2018.05.24-04.51.33:063][ 29]CompilerResultsLog: Pickup.cpp
+[2018.05.24-04.51.33:063][ 29]CompilerResultsLog: UT.init.gen.cpp
+[2018.05.24-04.51.33:063][ 29]CompilerResultsLog: [4/5] Link UE4Editor-UT-9420.dll
+[2018.05.24-04.51.33:063][ 29]CompilerResultsLog: [5/5] Link UE4Editor-UT-9420.lib
+[2018.05.24-04.51.33:063][ 29]CompilerResultsLog:    Creating library E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UT-9420.lib and object E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UT-9420.exp
+[2018.05.24-04.51.33:063][ 29]CompilerResultsLog:    Creating library E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UT-9420.suppressed.lib and object E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UT-9420.suppressed.exp
+[2018.05.24-04.51.33:063][ 29]CompilerResultsLog: Total build time: 12.97 seconds (Local executor: 2.30 seconds)
+[2018.05.24-04.51.33:063][ 29]LogMainFrame: MainFrame: Module compiling took 13.144 seconds
+[2018.05.24-04.51.33:110][ 29]LogClass: Could not find existing class Pickup in package /Script/UT for HotReload, assuming new class
+[2018.05.24-04.51.33:110][ 29]LogClass: Function OnPlayerEnterPickupBox is new.
+[2018.05.24-04.51.33:569][ 29]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.456 s
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: === Handled ensure: ===
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: 
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: Ensure condition failed: AttachmentRules.LocationRule == EAttachmentRule::KeepRelative && AttachmentRules.RotationRule == EAttachmentRule::KeepRelative && AttachmentRules.ScaleRule == EAttachmentRule::KeepRelative [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 1672]
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: AttachToComponent when called from a constructor is only setting up attachment and will always be treated as KeepRelative. Consider calling SetupAttachment directly instead.
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: Stack: 
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000043463E36
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000431EC2D2
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000043204746
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000400F26B8
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: UE4Editor-UT-9420.dll!APickup::APickup() [e:\_gamedev\_projects\unreal\uetutorial\ut\source\ut\pickup.cpp:20]
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000005996A182
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x0000000059BD33DB
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x0000000059BB6E03
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000005996BE97
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000043088220
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000432D68D0
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000432D5BE3
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x00000000300A275E
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x000000003009FD54
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x00000000300A0720
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x00000000300B2C1B
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x000000003E64B19E
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x000000003EEDD646
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: UE4Editor.exe!0x000000001167534A
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: UE4Editor.exe!0x0000000011683970
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: UE4Editor.exe!0x00000000116839EA
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: UE4Editor.exe!0x00000000116902D9
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: UE4Editor.exe!0x0000000011691C47
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: KERNEL32.DLL!0x0000000090D51FE4
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: ntdll.dll!0x000000009330F061
+[2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: 
+[2018.05.24-04.51.33:576][ 29]LogStats:                SubmitErrorReport -  0.000 s

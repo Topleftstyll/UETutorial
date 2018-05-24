@@ -20,8 +20,8 @@ void EmptyLinkFunctionForGeneratedCodeUT_init() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), nullptr, FName(TEXT("/Script/UT")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x0D013A06;
-			Guid.B = 0xCE6EDDD5;
+			Guid.A = 0x146E813B;
+			Guid.B = 0x6523CFEC;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);
