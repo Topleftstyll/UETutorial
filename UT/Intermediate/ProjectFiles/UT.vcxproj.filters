@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\UT.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{650F4653-DBD8-4D79-9B93-E5B87E600BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UT.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\UTEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{57971F6A-0E58-4F18-AE44-08B62269C472}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\UT">
+      <UniqueIdentifier>{E6CFF672-B902-4F6B-9B20-1CDCCE1BA821}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UT\UT.Build.cs">
+      <Filter>Source\UT</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\UT\UT.cpp">
+      <Filter>Source\UT</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UT\UT.h">
+      <Filter>Source\UT</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UT\UTCharacter.cpp">
+      <Filter>Source\UT</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UT\UTCharacter.h">
+      <Filter>Source\UT</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UT\UTGameMode.cpp">
+      <Filter>Source\UT</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UT\UTGameMode.h">
+      <Filter>Source\UT</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UT\UTHUD.cpp">
+      <Filter>Source\UT</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UT\UTHUD.h">
+      <Filter>Source\UT</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UT\UTProjectile.cpp">
+      <Filter>Source\UT</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UT\UTProjectile.h">
+      <Filter>Source\UT</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\UT\Pickup.h">
+      <Filter>Source\UT</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\UT\Pickup.cpp">
+      <Filter>Source\UT</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
