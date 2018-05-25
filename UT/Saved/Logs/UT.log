@@ -851,3 +851,102 @@ LogInit: Object subsystem initialized
 [2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: ntdll.dll!0x000000009330F061
 [2018.05.24-04.51.33:569][ 29]LogOutputDevice: Error: 
 [2018.05.24-04.51.33:576][ 29]LogStats:                SubmitErrorReport -  0.000 s
+[2018.05.24-04.51.37:856][ 29]LogStats:                    SendNewReport -  4.281 s
+[2018.05.24-04.51.37:856][ 29]LogStats:             FDebug::EnsureFailed -  4.744 s
+[2018.05.24-04.51.37:858][ 29]LogHotReload: Re-instancing Pickup after hot-reload.
+[2018.05.24-04.51.37:905][ 29]LogHotReload: Re-instancing UTProjectile after hot-reload.
+[2018.05.24-04.51.37:952][ 29]LogContentBrowser: Native class hierarchy updated for 'UT' in 0.0018 seconds. Added 5 classes and 2 folders.
+[2018.05.24-04.51.37:953][ 29]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.05.24-04.51.37:976][ 29]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2393 classes and 506 folders.
+[2018.05.24-04.51.37:976][ 29]Display: HotReload took 18.1s.
+[2018.05.24-04.51.44:881][467]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.24-04.51.47:023][715]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.24-04.52.12:767][775]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.24-04.52.12:776][775]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.24-04.52.12:776][775]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.24-04.52.12:776][775]PIE: New page: PIE session: FirstPersonExampleMap (May 23, 2018, 8:52:12 PM)
+[2018.05.24-04.52.12:776][775]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.05.24-04.52.12:788][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012177s)
+[2018.05.24-04.52.12:789][775]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.05.24-04.52.12:789][775]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2018.05.24-04.52.12:790][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013599s)
+[2018.05.24-04.52.12:803][775]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.24-04.52.12:809][775]LogInit: FAudioDevice initialized.
+[2018.05.24-04.52.12:837][775]LogLoad: Game class is 'UTGameMode'
+[2018.05.24-04.52.12:839][775]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.05.24-00.52.12
+[2018.05.24-04.52.12:839][775]LogWorld: Bringing up level for play took: 0.001845
+[2018.05.24-04.52.12:840][775]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.242
+[2018.05.24-04.52.12:840][775]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.24-04.52.19:791][605]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.24-04.52.19:841][605]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.24-04.52.31:721][325]Cmd: DELETE
+[2018.05.24-04.52.31:721][325]Cmd: ACTOR DELETE
+[2018.05.24-04.52.31:866][325]LogEditorActor: Deleted Actor: Pickup
+[2018.05.24-04.52.31:889][325]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2018.05.24-04.52.33:208][482]LogEditor: Attempting to add actor of class 'UTProjectile' to level at 30.00,-340.00,170.00
+[2018.05.24-04.52.35:248][724]LogEditor: Attempting to add actor of class 'Pickup' to level at 100.00,-360.00,170.00
+[2018.05.24-04.52.35:711][777]LogEditor: Attempting to add actor of class 'Pickup' to level at 50.00,-110.00,170.00
+[2018.05.24-04.53.02:495][954]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.24-04.53.02:504][954]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.24-04.53.02:504][954]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.24-04.53.02:504][954]PIE: New page: PIE session: FirstPersonExampleMap (May 23, 2018, 8:53:02 PM)
+[2018.05.24-04.53.02:504][954]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.05.24-04.53.02:516][954]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011382s)
+[2018.05.24-04.53.02:517][954]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.05.24-04.53.02:517][954]LogPlayLevel: PIE: World Init took: (0.000768s)
+[2018.05.24-04.53.02:517][954]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012504s)
+[2018.05.24-04.53.02:530][954]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.24-04.53.02:536][954]LogInit: FAudioDevice initialized.
+[2018.05.24-04.53.02:564][954]LogLoad: Game class is 'UTGameMode'
+[2018.05.24-04.53.02:566][954]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.05.24-00.53.02
+[2018.05.24-04.53.02:567][954]LogWorld: Bringing up level for play took: 0.002323
+[2018.05.24-04.53.02:567][954]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.514
+[2018.05.24-04.53.02:568][954]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.24-04.53.05:432][295]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.24-04.53.05:480][295]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.24-04.53.58:134][682]LogEditorActor: Deleted Actor: Pickup
+[2018.05.24-04.53.58:140][682]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2018.05.24-04.54.40:923][262]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 113 classes and 0 folders.
+[2018.05.24-04.55.05:932][ 56]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:226).
+[2018.05.24-04.55.40:006][884]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.24-04.56.24:566][447]BlueprintLog: New page: Compile Pickup_Cone
+[2018.05.24-04.56.25:913][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pickups/Pickup_Cone" FILE="../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Content/Pickups/Pickup_Cone.uasset" SILENT=true
+[2018.05.24-04.56.25:933][578]LogSavePackage: Save=18.11ms
+[2018.05.24-04.56.25:933][578]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Saved/Pickup_Cone58EAF44D4165D9BED6384F9F7B01C149.tmp' to '../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Content/Pickups/Pickup_Cone.uasset'
+[2018.05.24-04.56.25:937][578]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Content/Pickups/Pickup_Cone.uasset
+[2018.05.24-04.56.50:187][461]BlueprintLog: New page: Compile MyPickup_Sphere
+[2018.05.24-04.56.51:397][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pickups/MyPickup_Sphere" FILE="../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Content/Pickups/MyPickup_Sphere.uasset" SILENT=true
+[2018.05.24-04.56.51:417][581]LogSavePackage: Save=17.79ms
+[2018.05.24-04.56.51:417][581]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Saved/MyPickup_SphereD74E538045B829A30ADD0CB0CE93C9F6.tmp' to '../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Content/Pickups/MyPickup_Sphere.uasset'
+[2018.05.24-04.56.51:419][581]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Content/Pickups/MyPickup_Sphere.uasset
+[2018.05.24-04.56.52:834][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pickups/Pickup_Cone" FILE="../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Content/Pickups/Pickup_Cone.uasset" SILENT=true
+[2018.05.24-04.56.52:851][749]LogSavePackage: Save=11.50ms
+[2018.05.24-04.56.52:851][749]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Saved/Pickup_Cone31FB329748493DAC3EB729ACC6266C3C.tmp' to '../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Content/Pickups/Pickup_Cone.uasset'
+[2018.05.24-04.56.52:852][749]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Content/Pickups/Pickup_Cone.uasset
+[2018.05.24-04.56.54:236][903]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.05.24-04.57.12:542][ 31]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.24-04.57.12:559][ 31]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.24-04.57.12:559][ 31]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.24-04.57.12:559][ 31]PIE: New page: PIE session: FirstPersonExampleMap (May 23, 2018, 8:57:12 PM)
+[2018.05.24-04.57.12:559][ 31]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.05.24-04.57.12:574][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014677s)
+[2018.05.24-04.57.12:575][ 31]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.05.24-04.57.12:575][ 31]LogPlayLevel: PIE: World Init took: (0.001318s)
+[2018.05.24-04.57.12:575][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016409s)
+[2018.05.24-04.57.12:593][ 31]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.24-04.57.12:599][ 31]LogInit: FAudioDevice initialized.
+[2018.05.24-04.57.12:630][ 31]LogLoad: Game class is 'UTGameMode'
+[2018.05.24-04.57.12:632][ 31]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.05.24-00.57.12
+[2018.05.24-04.57.12:632][ 31]LogWorld: Bringing up level for play took: 0.001778
+[2018.05.24-04.57.12:633][ 31]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.449
+[2018.05.24-04.57.12:633][ 31]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.24-04.57.39:852][289]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-613.979 Y=-395.208 Z=149.492] for [FirstPersonProjectile_C]
+[2018.05.24-04.57.40:835][407]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-256.077 Y=-368.414 Z=155.662] for [FirstPersonProjectile_C]
+[2018.05.24-04.57.58:245][491]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.24-04.57.58:295][491]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.24-04.58.07:023][678]LogSavePackage: Save=89.90ms
+[2018.05.24-04.58.07:023][678]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Saved/FirstPersonExampleMapDB170E434045BA07935D2495DA08D7D0.tmp' to '../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2018.05.24-04.58.07:028][678]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
+[2018.05.24-04.58.07:928][678]LogSavePackage: Save=866.20ms
+[2018.05.24-04.58.07:928][678]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Saved/FirstPersonExampleMap_BuiltData3310DC434107EDB730824EBC50E8BE8A.tmp' to '../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.05.24-04.58.07:930][678]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset
