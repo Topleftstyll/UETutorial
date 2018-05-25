@@ -1,0 +1,24 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-UT-8096.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Program Files (x86)\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UT\Pickup.cpp.obj"
+"E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UT\UT.cpp.obj"
+"E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UT\UTCharacter.cpp.obj"
+"E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UT\UTGameMode.cpp.obj"
+"E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UT\UTHUD.cpp.obj"
+"E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UT\UTProjectile.cpp.obj"
+"E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UT\Pickup.gen.cpp.obj"
+"E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UT\UT.init.gen.cpp.obj"
+"E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UT\UTCharacter.gen.cpp.obj"
+"E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UT\UTGameMode.gen.cpp.obj"
+"E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UT\UTHUD.gen.cpp.obj"
+"E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UT\UTProjectile.gen.cpp.obj"
+"E:\Program Files (x86)\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\UT\PCLaunch.rc.res"
+"E:\Program Files (x86)\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UT-8096.lib"

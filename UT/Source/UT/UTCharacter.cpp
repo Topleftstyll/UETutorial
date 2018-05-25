@@ -1,4 +1,4 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+﻿// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
 
 #include "UTCharacter.h"
 #include "UTProjectile.h"
@@ -10,6 +10,7 @@
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Kismet/GameplayStatics.h"
 #include "MotionControllerComponent.h"
+#include "TimerManager.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -137,50 +138,61 @@ void AUTCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputC
 
 void AUTCharacter::OnFire()
 {
-	// try and fire a projectile
-	if (ProjectileClass != NULL)
-	{
-		UWorld* const World = GetWorld();
-		if (World != NULL)
+
+	if (bCanFire) {
+		bCanFire = false;
+		// try and fire a projectile
+		if (ProjectileClass != NULL)
 		{
-			if (bUsingMotionControllers)
+			UWorld* const World = GetWorld();
+			if (World != NULL)
 			{
-				const FRotator SpawnRotation = VR_MuzzleLocation->GetComponentRotation();
-				const FVector SpawnLocation = VR_MuzzleLocation->GetComponentLocation();
-				World->SpawnActor<AUTProjectile>(ProjectileClass, SpawnLocation, SpawnRotation);
-			}
-			else
-			{
-				const FRotator SpawnRotation = GetControlRotation();
-				// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
-				const FVector SpawnLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
+				if (bUsingMotionControllers)
+				{
+					const FRotator SpawnRotation = VR_MuzzleLocation->GetComponentRotation();
+					const FVector SpawnLocation = VR_MuzzleLocation->GetComponentLocation();
+					World->SpawnActor<AUTProjectile>(ProjectileClass, SpawnLocation, SpawnRotation);
+				}
+				else
+				{
+					const FRotator SpawnRotation = GetControlRotation();
+					// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
+					const FVector SpawnLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
 
-				//Set Spawn Collision Handling Override
-				FActorSpawnParameters ActorSpawnParams;
-				ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+					//Set Spawn Collision Handling Override
+					FActorSpawnParameters ActorSpawnParams;
+					ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
 
-				// spawn the projectile at the muzzle
-				World->SpawnActor<AUTProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+					// spawn the projectile at the muzzle
+					World->SpawnActor<AUTProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+				}
 			}
 		}
-	}
 
-	//// try and play the sound if specified
-	//if (FireSound != NULL)
-	//{
-	//	UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
-	//}
+		//// try and play the sound if specified
+		//if (FireSound != NULL)
+		//{
+		//	UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
+		//}
 
-	// try and play a firing animation if specified
-	if (FireAnimation != NULL)
-	{
-		// Get the animation object for the arms mesh
-		UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
-		if (AnimInstance != NULL)
+		// try and play a firing animation if specified
+		if (FireAnimation != NULL)
 		{
-			AnimInstance->Montage_Play(FireAnimation, 1.f);
+			// Get the animation object for the arms mesh
+			UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
+			if (AnimInstance != NULL)
+			{
+				AnimInstance->Montage_Play(FireAnimation, 1.f);
+			}
 		}
+
+		GetWorld()->GetTimerManager().SetTimer(FireDelayTimerHandle, this, &AUTCharacter::ResetFire, 3.0f, false);
 	}
+}
+
+void AUTCharacter::ResetFire() {
+	bCanFire = true;
+	GetWorldTimerManager().ClearTimer(FireDelayTimerHandle);
 }
 
 void AUTCharacter::OnResetVR()

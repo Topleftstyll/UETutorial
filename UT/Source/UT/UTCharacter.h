@@ -85,6 +85,15 @@ protected:
 	/** Fires a projectile. */
 	void OnFire();
 
+	// True if the player can fire false otherwise
+	bool bCanFire = true;
+
+	// handles the delay between shot
+	FTimerHandle FireDelayTimerHandle;
+
+	// resets the players ability to fire
+	void ResetFire();
+
 	/** Resets HMD orientation and position in VR. */
 	void OnResetVR();
 

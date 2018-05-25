@@ -997,3 +997,185 @@ LogInit: Object subsystem initialized
 [2018.05.25-02.06.20:638][616]LogSavePackage: Save=662.40ms
 [2018.05.25-02.06.20:638][616]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Saved/FirstPersonExampleMap_BuiltDataF621A4214E0AB17B76D7C68683AE0A17.tmp' to '../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
 [2018.05.25-02.06.20:640][616]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.05.25-02.08.29:287][153]Candidate modules for hot reload:
+[2018.05.25-02.08.29:287][153]  UT
+[2018.05.25-02.08.29:287][153]Launching UnrealBuildTool... [E:/Program Files (x86)/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe UT -ModuleWithSuffix UT 755 Win64 Development -editorrecompile -canskiplink "E:/_GameDev/_Projects/Unreal/UETutorial/UT/UT.uproject" ]
+[2018.05.25-02.08.29:289][153]Warning: Starting HotReload took  0.0s.
+[2018.05.25-02.08.41:972][675]CompilerResultsLog: New page: Compilation - May 24, 2018, 6:08:41 PM
+[2018.05.25-02.08.41:972][675]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.25-02.08.41:972][675]CompilerResultsLog: Parsing headers for UTEditor
+[2018.05.25-02.08.41:972][675]CompilerResultsLog:   Running UnrealHeaderTool "E:\_GameDev\_Projects\Unreal\UETutorial\UT\UT.uproject" "E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UTEditor\Development\UTEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.05.25-02.08.41:972][675]CompilerResultsLog: Reflection code generated for UTEditor in 6.6405164 seconds
+[2018.05.25-02.08.41:972][675]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.05.25-02.08.41:972][675]CompilerResultsLog: Pickup.cpp
+[2018.05.25-02.08.41:972][675]CompilerResultsLog: [2/3] Link UE4Editor-UT-755.dll
+[2018.05.25-02.08.41:972][675]CompilerResultsLog: [3/3] Link UE4Editor-UT-755.lib
+[2018.05.25-02.08.41:972][675]CompilerResultsLog:    Creating library E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UT-755.lib and object E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UT-755.exp
+[2018.05.25-02.08.41:972][675]CompilerResultsLog:    Creating library E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UT-755.suppressed.lib and object E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UT-755.suppressed.exp
+[2018.05.25-02.08.41:972][675]CompilerResultsLog: Total build time: 12.52 seconds (Local executor: 2.42 seconds)
+[2018.05.25-02.08.41:972][675]LogMainFrame: MainFrame: Module compiling took 12.693 seconds
+[2018.05.25-02.08.42:037][675]LogContentBrowser: Native class hierarchy updated for 'UT' in 0.0016 seconds. Added 5 classes and 2 folders.
+[2018.05.25-02.08.42:039][675]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.05.25-02.08.42:233][675]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2393 classes and 506 folders.
+[2018.05.25-02.08.42:233][675]Display: HotReload took 13.0s.
+[2018.05.25-02.08.44:284][921]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.25-02.08.44:292][921]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.25-02.08.44:292][921]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.25-02.08.44:292][921]PIE: New page: PIE session: FirstPersonExampleMap (May 24, 2018, 6:08:44 PM)
+[2018.05.25-02.08.44:292][921]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.05.25-02.08.44:304][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011618s)
+[2018.05.25-02.08.44:305][921]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.05.25-02.08.44:305][921]LogPlayLevel: PIE: World Init took: (0.000765s)
+[2018.05.25-02.08.44:305][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012686s)
+[2018.05.25-02.08.44:342][921]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.25-02.08.44:347][921]LogInit: FAudioDevice initialized.
+[2018.05.25-02.08.44:377][921]LogLoad: Game class is 'UTGameMode'
+[2018.05.25-02.08.44:380][921]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.05.24-22.08.44
+[2018.05.25-02.08.44:380][921]LogWorld: Bringing up level for play took: 0.001932
+[2018.05.25-02.08.44:381][921]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.701
+[2018.05.25-02.08.44:381][921]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.25-02.09.03:699][234]Set new viewmode: Wireframe
+[2018.05.25-02.09.04:809][364]Set new viewmode: Wireframe
+[2018.05.25-02.09.05:959][502]Set new viewmode: Wireframe
+[2018.05.25-02.09.06:359][550]Set new viewmode: Wireframe
+[2018.05.25-02.09.07:668][707]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.25-02.09.07:712][707]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.25-02.09.12:578][284]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.25-02.09.12:583][284]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.25-02.09.12:584][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.25-02.09.12:584][284]PIE: New page: PIE session: FirstPersonExampleMap (May 24, 2018, 6:09:12 PM)
+[2018.05.25-02.09.12:584][284]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.05.25-02.09.12:596][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011898s)
+[2018.05.25-02.09.12:596][284]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.05.25-02.09.12:597][284]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2018.05.25-02.09.12:597][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012939s)
+[2018.05.25-02.09.12:612][284]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.25-02.09.12:616][284]LogInit: FAudioDevice initialized.
+[2018.05.25-02.09.12:649][284]LogLoad: Game class is 'UTGameMode'
+[2018.05.25-02.09.12:651][284]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.05.24-22.09.12
+[2018.05.25-02.09.12:651][284]LogWorld: Bringing up level for play took: 0.001758
+[2018.05.25-02.09.12:652][284]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.43
+[2018.05.25-02.09.12:652][284]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.25-02.09.15:179][585]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.25-02.09.15:227][585]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.25-02.11.04:906][541]Candidate modules for hot reload:
+[2018.05.25-02.11.04:906][541]  UT
+[2018.05.25-02.11.04:906][541]Launching UnrealBuildTool... [E:/Program Files (x86)/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe UT -ModuleWithSuffix UT 9881 Win64 Development -editorrecompile -canskiplink "E:/_GameDev/_Projects/Unreal/UETutorial/UT/UT.uproject" ]
+[2018.05.25-02.11.04:908][541]Warning: Starting HotReload took  0.0s.
+[2018.05.25-02.11.17:559][ 59]CompilerResultsLog: New page: Compilation - May 24, 2018, 6:11:17 PM
+[2018.05.25-02.11.17:559][ 59]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.25-02.11.17:559][ 59]CompilerResultsLog: Parsing headers for UTEditor
+[2018.05.25-02.11.17:559][ 59]CompilerResultsLog:   Running UnrealHeaderTool "E:\_GameDev\_Projects\Unreal\UETutorial\UT\UT.uproject" "E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UTEditor\Development\UTEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.05.25-02.11.17:559][ 59]CompilerResultsLog: Reflection code generated for UTEditor in 6.7858254 seconds
+[2018.05.25-02.11.17:559][ 59]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.05.25-02.11.17:559][ 59]CompilerResultsLog: Pickup.cpp
+[2018.05.25-02.11.17:559][ 59]CompilerResultsLog: [2/3] Link UE4Editor-UT-9881.dll
+[2018.05.25-02.11.17:559][ 59]CompilerResultsLog: [3/3] Link UE4Editor-UT-9881.lib
+[2018.05.25-02.11.17:559][ 59]CompilerResultsLog:    Creating library E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UT-9881.lib and object E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UT-9881.exp
+[2018.05.25-02.11.17:559][ 59]CompilerResultsLog:    Creating library E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UT-9881.suppressed.lib and object E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UT-9881.suppressed.exp
+[2018.05.25-02.11.17:559][ 59]CompilerResultsLog: Total build time: 12.50 seconds (Local executor: 2.22 seconds)
+[2018.05.25-02.11.17:559][ 59]LogMainFrame: MainFrame: Module compiling took 12.661 seconds
+[2018.05.25-02.11.17:613][ 59]LogHotReload: Re-instancing Pickup after hot-reload.
+[2018.05.25-02.11.18:190][ 59]LogContentBrowser: Native class hierarchy updated for 'UT' in 0.0015 seconds. Added 5 classes and 2 folders.
+[2018.05.25-02.11.18:192][ 59]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.05.25-02.11.18:373][ 59]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2393 classes and 506 folders.
+[2018.05.25-02.11.18:373][ 59]Display: HotReload took 13.5s.
+[2018.05.25-02.11.19:462][188]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.25-02.11.19:470][188]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.25-02.11.19:470][188]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.25-02.11.19:470][188]PIE: New page: PIE session: FirstPersonExampleMap (May 24, 2018, 6:11:19 PM)
+[2018.05.25-02.11.19:470][188]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.05.25-02.11.19:482][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011135s)
+[2018.05.25-02.11.19:483][188]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.05.25-02.11.19:483][188]LogPlayLevel: PIE: World Init took: (0.000708s)
+[2018.05.25-02.11.19:483][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012142s)
+[2018.05.25-02.11.19:518][188]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.25-02.11.19:523][188]LogInit: FAudioDevice initialized.
+[2018.05.25-02.11.19:551][188]LogLoad: Game class is 'UTGameMode'
+[2018.05.25-02.11.19:553][188]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.05.24-22.11.19
+[2018.05.25-02.11.19:553][188]LogWorld: Bringing up level for play took: 0.001989
+[2018.05.25-02.11.19:554][188]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.473
+[2018.05.25-02.11.19:554][188]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.25-02.11.46:796][449]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.25-02.11.46:841][449]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.25-02.11.54:438][350]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.25-02.11.54:981][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.25-02.12.00:587][ 76]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.25-02.12.00:587][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.25-02.12.00:587][ 76]PIE: New page: PIE session: FirstPersonExampleMap (May 24, 2018, 6:12:00 PM)
+[2018.05.25-02.12.00:587][ 76]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.05.25-02.12.00:599][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011516s)
+[2018.05.25-02.12.00:600][ 76]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.05.25-02.12.00:600][ 76]LogPlayLevel: PIE: World Init took: (0.000683s)
+[2018.05.25-02.12.00:600][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012854s)
+[2018.05.25-02.12.00:617][ 76]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.25-02.12.00:621][ 76]LogInit: FAudioDevice initialized.
+[2018.05.25-02.12.00:676][ 76]LogLoad: Game class is 'UTGameMode'
+[2018.05.25-02.12.00:678][ 76]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.05.24-22.12.00
+[2018.05.25-02.12.00:678][ 76]LogWorld: Bringing up level for play took: 0.001850
+[2018.05.25-02.12.00:682][ 76]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.399
+[2018.05.25-02.12.00:683][ 76]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.25-02.12.00:716][ 76]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.05.25-02.12.09:489][831]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.25-02.12.09:542][831]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.25-02.12.16:921][710]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.25-02.12.16:921][710]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.25-02.12.16:921][710]PIE: New page: PIE session: FirstPersonExampleMap (May 24, 2018, 6:12:16 PM)
+[2018.05.25-02.12.16:921][710]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.05.25-02.12.16:932][710]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010479s)
+[2018.05.25-02.12.16:932][710]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.05.25-02.12.16:933][710]LogPlayLevel: PIE: World Init took: (0.000765s)
+[2018.05.25-02.12.16:933][710]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011521s)
+[2018.05.25-02.12.16:949][710]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.25-02.12.16:953][710]LogInit: FAudioDevice initialized.
+[2018.05.25-02.12.16:983][710]LogLoad: Game class is 'UTGameMode'
+[2018.05.25-02.12.16:985][710]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.05.24-22.12.16
+[2018.05.25-02.12.16:986][710]LogWorld: Bringing up level for play took: 0.001847
+[2018.05.25-02.12.16:986][710]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.095
+[2018.05.25-02.12.16:986][710]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.25-02.12.18:943][942]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.25-02.12.18:990][942]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.25-02.12.34:695][222]Candidate modules for hot reload:
+[2018.05.25-02.12.34:695][222]  UT
+[2018.05.25-02.12.34:695][222]Launching UnrealBuildTool... [E:/Program Files (x86)/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe UT -ModuleWithSuffix UT 2836 Win64 Development -editorrecompile -canskiplink "E:/_GameDev/_Projects/Unreal/UETutorial/UT/UT.uproject" ]
+[2018.05.25-02.12.34:697][222]Warning: Starting HotReload took  0.0s.
+[2018.05.25-02.12.46:547][644]CompilerResultsLog: New page: Compilation - May 24, 2018, 6:12:46 PM
+[2018.05.25-02.12.46:547][644]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.25-02.12.46:547][644]CompilerResultsLog: Parsing headers for UTEditor
+[2018.05.25-02.12.46:547][644]CompilerResultsLog:   Running UnrealHeaderTool "E:\_GameDev\_Projects\Unreal\UETutorial\UT\UT.uproject" "E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UTEditor\Development\UTEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.05.25-02.12.46:547][644]CompilerResultsLog: Reflection code generated for UTEditor in 6.6744514 seconds
+[2018.05.25-02.12.46:547][644]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.05.25-02.12.46:547][644]CompilerResultsLog: Pickup.cpp
+[2018.05.25-02.12.46:547][644]CompilerResultsLog: Error: E:\_GameDev\_Projects\Unreal\UETutorial\UT\Source\UT\Pickup.cpp(44) : error C4804: '>=': unsafe use of type 'bool' in operation
+[2018.05.25-02.12.46:547][644]CompilerResultsLog: Error: E:\_GameDev\_Projects\Unreal\UETutorial\UT\Source\UT\Pickup.cpp(47) : error C4804: '<=': unsafe use of type 'bool' in operation
+[2018.05.25-02.12.46:547][644]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\_GameDev\_Projects\Unreal\UETutorial\UT\Binaries\Win64\UE4Editor-UT-2836.dll
+[2018.05.25-02.12.46:547][644]CompilerResultsLog: Total build time: 11.70 seconds (Local executor: 0.00 seconds)
+[2018.05.25-02.12.46:547][644]LogMainFrame: MainFrame: Module compiling took 11.860 seconds
+[2018.05.25-02.12.46:547][644]Warning: HotReload failed, recompile failed
+[2018.05.25-02.14.11:907][967]Candidate modules for hot reload:
+[2018.05.25-02.14.11:907][967]  UT
+[2018.05.25-02.14.11:907][967]Launching UnrealBuildTool... [E:/Program Files (x86)/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe UT -ModuleWithSuffix UT 9987 Win64 Development -editorrecompile -canskiplink "E:/_GameDev/_Projects/Unreal/UETutorial/UT/UT.uproject" ]
+[2018.05.25-02.14.11:909][967]Warning: Starting HotReload took  0.0s.
+[2018.05.25-02.14.24:533][482]CompilerResultsLog: New page: Compilation - May 24, 2018, 6:14:24 PM
+[2018.05.25-02.14.24:533][482]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.25-02.14.24:533][482]CompilerResultsLog: Parsing headers for UTEditor
+[2018.05.25-02.14.24:533][482]CompilerResultsLog:   Running UnrealHeaderTool "E:\_GameDev\_Projects\Unreal\UETutorial\UT\UT.uproject" "E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UTEditor\Development\UTEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.05.25-02.14.24:533][482]CompilerResultsLog: Reflection code generated for UTEditor in 6.683439 seconds
+[2018.05.25-02.14.24:533][482]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.05.25-02.14.24:533][482]CompilerResultsLog: Pickup.cpp
+[2018.05.25-02.14.24:533][482]CompilerResultsLog: [2/3] Link UE4Editor-UT-9987.dll
+[2018.05.25-02.14.24:533][482]CompilerResultsLog: [3/3] Link UE4Editor-UT-9987.lib
+[2018.05.25-02.14.24:533][482]CompilerResultsLog:    Creating library E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UT-9987.lib and object E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UT-9987.exp
+[2018.05.25-02.14.24:533][482]CompilerResultsLog:    Creating library E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UT-9987.suppressed.lib and object E:\_GameDev\_Projects\Unreal\UETutorial\UT\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UT-9987.suppressed.exp
+[2018.05.25-02.14.24:533][482]CompilerResultsLog: Total build time: 12.47 seconds (Local executor: 2.31 seconds)
+[2018.05.25-02.14.24:533][482]LogMainFrame: MainFrame: Module compiling took 12.634 seconds
+[2018.05.25-02.14.24:591][482]LogContentBrowser: Native class hierarchy updated for 'UT' in 0.0015 seconds. Added 5 classes and 2 folders.
+[2018.05.25-02.14.24:593][482]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.05.25-02.14.24:776][482]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2393 classes and 506 folders.
+[2018.05.25-02.14.24:776][482]Display: HotReload took 12.9s.
+[2018.05.25-02.14.25:978][609]LogSavePackage: Save=91.23ms
+[2018.05.25-02.14.25:978][609]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Saved/FirstPersonExampleMap250F69C449DD5AA3329EF7A79EAAB5BD.tmp' to '../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2018.05.25-02.14.25:979][609]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
+[2018.05.25-02.14.26:609][609]LogSavePackage: Save=605.68ms
+[2018.05.25-02.14.26:609][609]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Saved/FirstPersonExampleMap_BuiltDataB90866AD4530C2A0BA2339A17B9DF1E6.tmp' to '../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.05.25-02.14.26:610][609]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/UETutorial/UT/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset
