@@ -11,6 +11,8 @@
 #include "Kismet/GameplayStatics.h"
 #include "MotionControllerComponent.h"
 #include "TimerManager.h"
+#include "Runtime/Engine/Public/DrawDebugHelpers.h"
+
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -119,7 +121,7 @@ void AUTCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputC
 	//InputComponent->BindTouch(EInputEvent::IE_Pressed, this, &AUTCharacter::TouchStarted);
 	if (EnableTouchscreenMovement(PlayerInputComponent) == false)
 	{
-		PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AUTCharacter::OnFire);
+		PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AUTCharacter::Raycast);
 	}
 
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AUTCharacter::OnResetVR);
@@ -306,4 +308,21 @@ bool AUTCharacter::EnableTouchscreenMovement(class UInputComponent* PlayerInputC
 		//PlayerInputComponent->BindTouch(EInputEvent::IE_Repeat, this, &AUTCharacter::TouchUpdate);
 	}
 	return bResult;
+}
+
+void AUTCharacter::Raycast()
+{
+	FHitResult* HitResult = new FHitResult();
+	FVector StartTrace = FirstPersonCameraComponent->GetComponentLocation();
+	FVector ForwardVector = FirstPersonCameraComponent->GetForwardVector();
+	FVector EndTrace = (ForwardVector * 5000.0f) + StartTrace;
+	FCollisionQueryParams* CQP = new FCollisionQueryParams();
+
+	if (GetWorld()->LineTraceSingleByChannel(*HitResult, StartTrace, EndTrace, ECC_Visibility, *CQP)) {
+		DrawDebugLine(GetWorld(), StartTrace, EndTrace, FColor(255, 0, 0), true);
+
+		if (HitResult->GetActor() != NULL) {
+			HitResult->GetActor()->Destroy();
+		}
+	}
 }
